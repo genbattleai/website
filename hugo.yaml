@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: My Site
+title: GenBattle
 
 # import hextra as module
 module:
@@ -12,20 +12,19 @@ markup:
     renderer:
       unsafe: true
 
-  # enable hextra syntax highlight
   highlight:
     noClasses: false
 
 menu:
   main:
-    - name: Docs
-      pageRef: /docs
+    - name: Challenges
+      pageRef: /challenges
       weight: 1
     - name: About
-      pageRef: /about
+      pageRef: /docs/about
       weight: 2
-    - name: Contact ↗
-      url: "https://github.com/imfing"
+    - name: Submit ↗
+      pageRef: /docs/submit
       weight: 3
     - name: Search
       weight: 4
@@ -33,24 +32,40 @@ menu:
         type: search
     - name: GitHub
       weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
+      url: "https://github.com/genbattleai/website"
       params:
         icon: github
-    - name: Twitter
-      weight: 6
-      url: "https://twitter.com/"
-      params:
-        icon: x-twitter
 
 params:
+  comments:
+    enable: false
+    type: giscus
+
+    giscus:
+      repo: genbattleai/website
+      repoId: R_kgDOOtWOBw
+      category: Announcements
+      categoryId: DIC_kwDOOtWOB84CqYfb
+      mapping: title
+      strict: 0
+      reactionsEnabled: 1
+      emitMetadata: 0
+      inputPosition: top
+      theme: noborder_dark
+      lang: en
+      loading: lazy
+      crossorigin: anonymous
+      async: true
+
   navbar:
     displayTitle: true
-    displayLogo: false
+    displayLogo: true
 
   footer:
     displayCopyright: false
-    displayPoweredBy: true
+    displayPoweredBy: false
+    display: true
 
   editURL:
     enable: true
-    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+    base: "https://github.com/genbattleai/website/edit/main/content"
