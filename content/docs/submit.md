@@ -1,5 +1,5 @@
 ---
-title: "Submission Guide"
+title: "SlopFeed™ Submission Guide"
 type: docs
 breadcrumbs: false
 ---
