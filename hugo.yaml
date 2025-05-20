@@ -18,13 +18,13 @@ markup:
 menu:
   main:
     - name: Challenges
-      pageRef: /challenges
+      pageRef: /challenges/
       weight: 1
     - name: About
-      pageRef: /docs/about
+      pageRef: /docs/about/
       weight: 2
     - name: Submit ↗
-      pageRef: /docs/submit
+      pageRef: /docs/submit/
       weight: 3
     - name: Search
       weight: 4
@@ -37,6 +37,9 @@ menu:
         icon: github
 
 params:
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+
   comments:
     enable: false
     type: giscus

@@ -1,6 +1,7 @@
 ---
 title: "Submission Guide"
 type: docs
+breadcrumbs: false
 ---
 
 ## Rules
