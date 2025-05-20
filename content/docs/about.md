@@ -1,10 +1,10 @@
 ---
-title: "GenBattle & You"
+title: "About GenBattle"
 type: docs
-sidebar:
-  open: true
 breadcrumbs: false
 ---
+
+## GenBattle & You
 
 GenBattle is a video battleground for AI video generation models. We want to have fun, so each challenge has a sarcastic and/or satirical theme but the core mission will always remain the same:
 
